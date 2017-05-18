@@ -1,0 +1,7 @@
+Maven坐标:</br>
+groupId,artifactedId,version,packaging,classifier(用来帮助定义构建输出的一些附属构件。</br>
+附属构件与主构件对应，如nexus-indexer-2.0.0.jar，这个项目可能通过使用一些插件生成如</br>
+nexus-indexer-2.0.0-javadoc.jar,nexus-indexer-2.0.0-sources.jar这样一些附属构件，其中</br>
+包含了Java文档和源代码。这时候，javadoc和sources就是这两个附属构件的classifier。这样，附属构件</br>
+也就拥有了自己唯一的坐标。注意，不能直接定义自己项目的classifier，因为附属构件不是项目直接默认生成</br>
+的，而是由附加的插件帮助生成)
