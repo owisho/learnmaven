@@ -1,4 +1,4 @@
-#Maven坐标:</br>
+### Maven坐标:</br>
 groupId,artifactedId,version,packaging,classifier(用来帮助定义构建输出的一些附属构件。</br>
 附属构件与主构件对应，如nexus-indexer-2.0.0.jar，这个项目可能通过使用一些插件生成如</br>
 nexus-indexer-2.0.0-javadoc.jar,nexus-indexer-2.0.0-sources.jar这样一些附属构件，其中</br>
