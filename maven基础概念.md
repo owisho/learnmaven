@@ -15,28 +15,28 @@ post-clean
 validate  
 initialize  
 generate-sources  
-process-sources  处理项目主资源文件。src/main/resources目录内容  
+process-sources  处理项目主资源文件。src/main/resources目录内容    
 generate-resources  
 process-resources  
-compile  编译项目的主源码。src/main/java目录下的内容编译到主classpath目录中  
+compile  编译项目的主源码。src/main/java目录下的内容编译到主classpath目录中    
 process-class  
 generate-test-sources  
-process-test-sources  处理项目测试资源文件。src/test/resources目录内容  
+process-test-sources  处理项目测试资源文件。src/test/resources目录内容    
 generate-test-resources  
 process-test-resources  
-test-compile  编译项目测试代码。src/test/java目录下的java文件编译到测试classpath目录中  
+test-compile  编译项目测试代码。src/test/java目录下的java文件编译到测试classpath目录中    
 process-test-classes  
-test  使用丹云测试框架运行测试，测试代码不会被打包或部署  
+test  使用丹云测试框架运行测试，测试代码不会被打包或部署    
 prepare-package  
-package  接受编译好的代码，打包成可发布的格式，如jar  
+package  接受编译好的代码，打包成可发布的格式，如jar    
 pre-integration-test  
 integration-test  
 post-integration-test  
 verify  
-install 将包安装到Maven本地仓库，供本地其他Maven项目使用。  
-deploy  将最终的包复制到远程仓库，供其他开发人员和Maven项目使用。  
+install 将包安装到Maven本地仓库，供本地其他Maven项目使用。    
+deploy  将最终的包复制到远程仓库，供其他开发人员和Maven项目使用。    
 ####  site生命周期  
-pre-site  执行一些在生成项目的站点之前需要完成的工作  
-site  生成项目站点文档  
-post-site 执行一些在生成项目站点之后需要完成的工作  
-site-deploy  将生成的项目站点发布到服务器上
+pre-site  执行一些在生成项目的站点之前需要完成的工作    
+site  生成项目站点文档    
+post-site 执行一些在生成项目站点之后需要完成的工作    
+site-deploy  将生成的项目站点发布到服务器上  
