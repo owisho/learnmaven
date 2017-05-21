@@ -47,5 +47,16 @@ site-deploy  将生成的项目站点发布到服务器上
 #### Maven中央仓库地址：    
 http://repo1.maven.org/maven2/  
 #### Maven中央仓库的中国镜像    
-http://maven.net.cn/content/groups/public  
+http://maven.net.cn/content/groups/public  (亲测不可用)    
+
+### 在线插件信息   
+#### Apache官方插件列表地址    
+http://maven.apache.org/plugins/index.html   
+#### 官方插件的下载地址   
+http://repo1.maven.org/maven2/org/apache/maven/plugins   
+#### Codehaus上的Mojo项目提供的Maven插件列表地址    
+http://mojo.codehaus.org/plugins.html   
+#### Codehaus的Maven插件下载地址：    
+http://repository.codehaus.org/org/codehaus/mojo     
+
 
