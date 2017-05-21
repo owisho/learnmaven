@@ -39,4 +39,13 @@ deploy  将最终的包复制到远程仓库，供其他开发人员和Maven项
 pre-site  执行一些在生成项目的站点之前需要完成的工作    
 site  生成项目站点文档    
 post-site 执行一些在生成项目站点之后需要完成的工作    
-site-deploy  将生成的项目站点发布到服务器上  
+site-deploy  将生成的项目站点发布到服务器上    
+
+
+### 镜像    
+镜像如果不能使用会导致镜像想要替代的仓库无法访问    
+#### Maven中央仓库地址：    
+http://repo1.maven.org/maven2/  
+#### Maven中央仓库的中国镜像    
+http://maven.net.cn/content/groups/public  
+
